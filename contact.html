@@ -1,31 +1,43 @@
+<!DOCTYPE html>
+<html>
 
-    <!-- For modern responsive web development: -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>Contact | Warren Uhrich</title>
 
-    <!-- Meta Data: -->
-    <meta name="description" content="A website about Warren Uhrich.">
-    <meta name="author" content="Warren Uhrich">
+  <!-- Set the character set, so the browser knows which character set should be loaded and valid for this webpage. -->
+  <meta charset="UTF-8">
 
-    <!-- Style(s): -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- For modern responsive web development: -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Script(s): -->
-    <!-- defer attribute will cause this script to wait until the body is loaded before executing (important for DOM / element manipulation by scripts) -->
-    <script src="js/scripts.js" type="text/javascript" defer></script>
-  </head>
-  <body class="contact">
-    <header>
-      <h1>Contact</h1>
-      <nav><!-- Navigation. -->
-        <h2>Navigation</h2>
-        <ul>
-          <li><a href="index.html">Home</a><!-- Anchor element (hyperlink.) --></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="mask">
+  <!-- Meta Data: -->
+  <meta name="description" content="A website about Warren Uhrich.">
+  <meta name="author" content="Warren Uhrich">
+
+  <!-- Style(s): -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <!-- Script(s): -->
+  <!-- defer attribute will cause this script to wait until the body is loaded before executing (important for DOM / element manipulation by scripts) -->
+  <script src="js/scripts.js" type="text/javascript" defer></script>
+</head>
+
+<body class="contact">
+  <header>
+    <h1>Contact</h1>
+    <nav>
+      <!-- Navigation. -->
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="index.html">Home</a><!-- Anchor element (hyperlink.) -->
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="columns.html">Columns</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="mask">
       <!-- 
         Forms are used for submitting data from a user to the server.
         The "action" attribute determines which page the data will be sent to.
@@ -136,14 +148,15 @@
         <input type="submit" value="Submit Me!">
       </form>
     </div>
-    </main>
-    <footer>
-      <h2>Footer</h2>
-      <!-- In our contact page, our copyright is not inside of a div, meaning it does satisfy "body>footer>p". Therefore it is orange. -->
-      <p>
-        &copy; Copyright 2020 TECHCareers;
-        All Rights Reserved
-      </p>
-    </footer>
-  </body>
+  </main>
+  <footer>
+    <h2>Footer</h2>
+    <!-- In our contact page, our copyright is not inside of a div, meaning it does satisfy "body>footer>p". Therefore it is orange. -->
+    <p>
+      &copy; Copyright 2020 TECHCareers;
+      All Rights Reserved
+    </p>
+  </footer>
+</body>
+
 </html>
